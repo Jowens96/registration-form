@@ -1,6 +1,5 @@
 html {
   font-family: "Open Sans", sans-serif;
-  background-color: #f2f2f2;
   color: #000;
 }
 
@@ -12,6 +11,15 @@ h1 {
   border-bottom: 1px solid;
 }
 
-@media only screen and (min-width: 60em){
+@media only screen and (min-width: 60em) {
+
+  html {
+    background-color: #f2f2f2;
+  }
+
+  .unit {
+    padding-left: .5em;
+    padding-right: .5em;
+  }
 
 }
